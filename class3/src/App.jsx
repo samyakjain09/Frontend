@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './components/Card'
+import card from './components/card'
 const App = () => {
   const arr=["samy","hello","jain"]
   return (
