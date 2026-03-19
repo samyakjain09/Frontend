@@ -4,21 +4,12 @@ import Women from './component/Women'
 import Men from './component/Men'
 
 const App = () => {
-  const user1={
-    name:"Rahul",
-    age:"22",
-    Gender:"male"
-
-  }
-  const user2={
-    name:"Shreya",
-    age:"24",
-    Gender:"female"
-
-  }
+    const abc= function(){
+      console.log("hello")
+    }
   return (
     <div>
-      {user2.Gender=="male"?<Men/>:<Women/>}
+      <button onClick={abc}>Click me</button>
     </div>
   )
 }
